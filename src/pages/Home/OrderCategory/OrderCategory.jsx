@@ -24,27 +24,51 @@ const OrderCategory = () => {
 			>
 				<SwiperSlide>
 					<img src={slider1} alt='' />
+					<h4 className='uppercase text-3xl text-white -mt-28 text-center'>
+						Salads
+					</h4>
 				</SwiperSlide>
 				<SwiperSlide>
 					<img src={slider2} alt='' />
+					<h4 className='uppercase text-3xl text-white -mt-28 text-center'>
+						Pizzas
+					</h4>
 				</SwiperSlide>
 				<SwiperSlide>
 					<img src={slider3} alt='' />
+					<h4 className='uppercase text-3xl text-white -mt-28 text-center'>
+						Soups
+					</h4>
 				</SwiperSlide>
 				<SwiperSlide>
 					<img src={slider4} alt='' />
+					<h4 className='uppercase text-3xl text-white -mt-28 text-center'>
+						Deserts
+					</h4>
 				</SwiperSlide>
 				<SwiperSlide>
 					<img src={slider5} alt='' />
-				</SwiperSlide>
-				<SwiperSlide>
-					<img src={slider1} alt='' />
+					<h4 className='uppercase text-3xl text-white -mt-28 text-center'>
+						Salads
+					</h4>
 				</SwiperSlide>
 				<SwiperSlide>
 					<img src={slider2} alt='' />
+					<h4 className='uppercase text-3xl text-white -mt-28 text-center'>
+						Pizzas
+					</h4>
 				</SwiperSlide>
 				<SwiperSlide>
 					<img src={slider3} alt='' />
+					<h4 className='uppercase text-3xl text-white -mt-28 text-center'>
+						Coffee
+					</h4>
+				</SwiperSlide>
+				<SwiperSlide>
+					<img src={slider4} alt='' />
+					<h4 className='uppercase text-3xl text-white -mt-20 text-center'>
+						Deserts
+					</h4>
 				</SwiperSlide>
 			</Swiper>
 		</div>
