@@ -4,6 +4,7 @@ import Header from "../../shared/Header/Header";
 import Banner from "../Banner/Banner";
 import OrderCategory from "../OrderCategory/OrderCategory";
 import MenuSection from "../MenuSection/MenuSection";
+import Featured from "../Featured/Featured";
 
 const Home = () => {
 	return (
@@ -11,6 +12,7 @@ const Home = () => {
 			<Banner />
 			<OrderCategory />
 			<MenuSection />
+			<Featured />
 		</div>
 	);
 };
