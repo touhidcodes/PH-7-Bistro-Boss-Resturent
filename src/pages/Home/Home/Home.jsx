@@ -5,6 +5,7 @@ import Banner from "../Banner/Banner";
 import OrderCategory from "../OrderCategory/OrderCategory";
 import MenuSection from "../MenuSection/MenuSection";
 import Featured from "../Featured/Featured";
+import Testimonial from "../Testimonial/Testimonial";
 
 const Home = () => {
 	return (
@@ -13,6 +14,7 @@ const Home = () => {
 			<OrderCategory />
 			<MenuSection />
 			<Featured />
+			<Testimonial />
 		</div>
 	);
 };
