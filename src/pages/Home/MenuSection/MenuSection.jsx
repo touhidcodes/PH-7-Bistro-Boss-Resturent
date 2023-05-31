@@ -23,7 +23,7 @@ const MenuSection = () => {
 			</div>
 			<div className='flex justify-center'>
 				<button className='btn btn-outline border-0 border-b-4 mt-10'>
-					View Full Menu
+					View Full Menusss
 				</button>
 			</div>
 		</section>
