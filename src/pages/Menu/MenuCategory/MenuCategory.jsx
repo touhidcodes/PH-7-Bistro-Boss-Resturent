@@ -2,6 +2,7 @@ import React from "react";
 import MenuItems from "../../shared/MenuItems/MenuItems";
 import SectionTitle from "../../shared/SectionTitle/SectionTitle";
 import Cover from "../../shared/Cover/Cover";
+import { Link } from "react-router-dom";
 
 const MenuCategory = ({
 	items,
@@ -22,7 +23,7 @@ const MenuCategory = ({
 			</div>
 			<div className='flex justify-center mb-10'>
 				<button className='btn btn-outline border-0 border-b-4 mt-10'>
-					{btnTitle}
+					<Link to={`/order/${heading}`}> {btnTitle}</Link>
 				</button>
 			</div>
 		</div>

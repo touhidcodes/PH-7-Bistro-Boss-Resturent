@@ -19,7 +19,7 @@ const Menu = () => {
 	return (
 		<div>
 			<Helmet>
-				<title>Bistro Boss Menu</title>
+				<title>Bistro Boss | Menu</title>
 			</Helmet>
 			<MenuCategory
 				items={offered}
@@ -31,9 +31,9 @@ const Menu = () => {
 			/>
 			<MenuCategory
 				items={pizza}
-				btnTitle='View Pizza'
+				btnTitle='View Pizzas'
 				subheading="Don't Miss"
-				heading='Pizza'
+				heading='Pizzas'
 				coverImg={pizzaCover}
 				coverTitle={"Our Menu"}
 			/>
@@ -49,7 +49,7 @@ const Menu = () => {
 				items={soup}
 				btnTitle='View Soups'
 				subheading="Don't Miss"
-				heading='Sops'
+				heading='Soups'
 				coverImg={soupCover}
 				coverTitle={"Soups"}
 			/>

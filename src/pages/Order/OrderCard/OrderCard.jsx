@@ -3,18 +3,16 @@ import React from "react";
 const OrderCard = ({ item }) => {
 	const { name, image, price, recipe } = item;
 	return (
-		<div className='card w-96 bg-base-100 shadow-xl'>
+		<div className='card  bg-base-100 shadow-xl'>
 			<figure>
-				<img
-					src='/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg'
-					alt='Shoes'
-				/>
+				<img src={image} alt='Shoes' />
 			</figure>
+			<p className="bg-slate-700 text-white font-semibold absolute right-5 top-5 px-3 py-1 rounded-xl">${price}</p>
 			<div className='card-body'>
-				<h2 className='card-title'>Shoes!</h2>
-				<p>If a dog chews shoes whose shoes does he choose?</p>
-				<div className='card-actions justify-end'>
-					<button className='btn btn-primary'>Buy Now</button>
+				<h2 className='card-title'>{name}</h2>
+				<p>{recipe}</p>
+				<div className='card-actions mx-auto mt-3'>
+					<button className='btn btn-primary'>Add to Cart</button>
 				</div>
 			</div>
 		</div>
