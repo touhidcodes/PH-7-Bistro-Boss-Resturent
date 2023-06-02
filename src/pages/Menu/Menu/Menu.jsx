@@ -1,10 +1,6 @@
 import React from "react";
 import { Helmet } from "react-helmet-async";
-import Cover from "../../shared/Cover/Cover";
-import menuImg from "../../../assets/menu/banner3.jpg";
-import MenuSection from "../../Home/MenuSection/MenuSection";
 import useMenu from "../../../hooks/useMenu/useMenu";
-import SectionTitle from "../../shared/SectionTitle/SectionTitle";
 import MenuCategory from "../MenuCategory/MenuCategory";
 import cover from "../../../assets/menu/banner3.jpg";
 import pizzaCover from "../../../assets/menu/pizza-bg.jpg";
